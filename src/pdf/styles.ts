@@ -98,7 +98,7 @@ export const styles = StyleSheet.create({
 		width: 258
 	},
 	projectItem: {
-		marginBottom: 8
+		marginBottom: 6
 	},
 	section: {
 		marginBottom: 6
@@ -144,7 +144,7 @@ export const styles = StyleSheet.create({
 		fontWeight: 'bold'
 	},
 	summarySection: {
-		marginBottom: 0
+		marginBottom: 2
 	},
 	summary: {
 		fontSize: 11.5,
@@ -154,7 +154,7 @@ export const styles = StyleSheet.create({
 	summaryParagraph: {
 		fontSize: 11.5,
 		lineHeight: 1.4,
-		marginBottom: 12,
+		marginBottom: 6,
 		textIndent: 14
 	},
 	title: {
@@ -175,7 +175,7 @@ export const styles = StyleSheet.create({
 
 	sidebarColumn: {
 		width: 135,
-		paddingTop: 223
+		paddingTop: 123
 	},
 
 	sidebarSection: {
