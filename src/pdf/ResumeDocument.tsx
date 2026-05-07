@@ -60,21 +60,18 @@ export const ResumeDocument = ({resume}: ResumeDocumentProps) => {
 										<View key={education.school} style={styles.educationItem}>
 											<View style={styles.itemHeader}>
 												<Text style={styles.itemTitle}>
-													{education.degree} at {education.school}
+													{education.location
+														? `${education.degree} at ${education.school}, ${education.location}`
+														: `${education.degree} at ${education.school}`}
 												</Text>
-
-												{education.start || education.end ? (
-													<Text style={styles.dateText}>
-														{[education.start, education.end]
-															.filter(Boolean)
-															.join(' – ')}
-													</Text>
-												) : null}
 											</View>
 
-											{education.location ? (
-												<Text style={styles.itemMeta}>
-													{education.location}
+											{education.start || education.end ? (
+												<Text style={styles.dateText}>
+													{[education.start, education.end]
+														.filter(Boolean)
+														.join(' — ')
+														.toUpperCase()}
 												</Text>
 											) : null}
 										</View>

@@ -2,19 +2,21 @@ import {StyleSheet} from '@react-pdf/renderer'
 
 export const styles = StyleSheet.create({
 	bullet: {
-		fontSize: 9.5,
-		lineHeight: 1.35,
-		marginBottom: 3
+		fontSize: 9,
+		lineHeight: 1.3,
+		marginBottom: 2
 	},
 	bulletRow: {
 		display: 'flex',
 		flexDirection: 'row',
-		gap: 4
+		gap: 4,
+		marginLeft: 7,
+		marginTop: -2
 	},
 	bulletSymbol: {
-		fontSize: 9.5,
-		lineHeight: 1.35,
-		width: 8
+		fontSize: 7.5,
+		lineHeight: 1.3,
+		width: 6
 	},
 	contactLine: {
 		color: '#333333',
@@ -31,8 +33,11 @@ export const styles = StyleSheet.create({
 		paddingTop: 23
 	},
 	dateText: {
-		color: '#444444',
-		fontSize: 9
+		color: '#6F87DB',
+		fontSize: 7.5,
+		fontWeight: 'bold',
+		letterSpacing: 0.6,
+		marginBottom: 1
 	},
 	educationItem: {
 		marginBottom: 7
@@ -43,22 +48,21 @@ export const styles = StyleSheet.create({
 		paddingBottom: 3
 	},
 	itemHeader: {
-		display: 'flex',
-		flexDirection: 'row',
-		justifyContent: 'space-between',
 		marginBottom: 2
 	},
 	itemMeta: {
 		color: '#444444',
-		fontSize: 9,
-		marginBottom: 3
+		fontSize: 11.5,
+		marginBottom: 2
 	},
 	itemTitle: {
-		fontSize: 10.5,
-		fontWeight: 'bold'
+		color: '#111111',
+		fontSize: 11.5,
+		fontWeight: 'bold',
+		marginBottom: 2
 	},
 	link: {
-		color: '#111111',
+		color: '#6F87DB',
 		textDecoration: 'none'
 	},
 	name: {
@@ -94,18 +98,18 @@ export const styles = StyleSheet.create({
 		width: 258
 	},
 	projectItem: {
-		marginBottom: 8
+		marginBottom: 16
 	},
 	section: {
-		marginBottom: 11
+		marginBottom: 6
 	},
 	sectionTitle: {
-		fontSize: 10,
+		color: '#00326E',
+		fontSize: 14.5,
 		fontWeight: 'bold',
-		letterSpacing: 0.7,
-		marginBottom: 6,
-		paddingBottom: 2,
-		textTransform: 'uppercase'
+		letterSpacing: 0.5,
+		marginBottom: 4,
+		paddingBottom: 3
 	},
 	skillGroup: {
 		display: 'flex',
@@ -122,10 +126,10 @@ export const styles = StyleSheet.create({
 		width: 82
 	},
 	summarySection: {
-		marginBottom: 18
+		marginBottom: 17
 	},
 	summary: {
-		fontSize: 10,
+		fontSize: 11.5,
 		lineHeight: 1.4
 	},
 	title: {
@@ -145,8 +149,8 @@ export const styles = StyleSheet.create({
 	},
 
 	sidebarColumn: {
-		width: 125,
-		paddingTop: 260
+		width: 135,
+		paddingTop: 200
 	},
 
 	sidebarSection: {
@@ -168,7 +172,7 @@ export const styles = StyleSheet.create({
 	},
 
 	sidebarLink: {
-		color: '#111111',
+		color: '#6F87DB',
 		fontSize: 9.5,
 		lineHeight: 1.35,
 		marginBottom: 3,

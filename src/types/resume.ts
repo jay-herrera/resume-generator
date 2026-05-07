@@ -1,3 +1,13 @@
+// define minimal types used in the project
+export type ExperienceItem = {
+	bullets: string[]
+	company: string
+	end?: string
+	location?: string
+	role: string
+	start: string
+}
+
 export type EducationItem = {
 	degree: string
 	end?: string
@@ -6,13 +16,14 @@ export type EducationItem = {
 	start?: string
 }
 
-export type ExperienceItem = {
-	bullets: string[]
-	company: string
-	end: string
-	location?: string
-	role: string
-	start: string
+export type SkillGroup = {
+	items: string[]
+	label: string
+}
+
+export type ResumeLink = {
+	label: string
+	url: string
 }
 
 export type ProjectItem = {
@@ -32,14 +43,4 @@ export type ResumeData = {
 	skills: SkillGroup[]
 	summary: string
 	title: string
-}
-
-export type ResumeLink = {
-	label: string
-	url: string
-}
-
-export type SkillGroup = {
-	items: string[]
-	label: string
 }

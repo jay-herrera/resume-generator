@@ -9,19 +9,22 @@ type ExperienceItemProps = {
 }
 
 export const ExperienceItem = ({experience}: ExperienceItemProps) => {
+	const heading = experience.location
+		? `${experience.role} at ${experience.company}, ${experience.location}`
+		: `${experience.role} at ${experience.company}`
+
+	const dateRange = [experience.start, experience.end]
+		.filter(Boolean)
+		.join(' — ')
+
 	return (
 		<View style={styles.projectItem}>
 			<View style={styles.itemHeader}>
-				<Text style={styles.itemTitle}>
-					{experience.role}, {experience.company}
-				</Text>
-				<Text style={styles.dateText}>
-					{experience.start} – {experience.end}
-				</Text>
+				<Text style={styles.itemTitle}>{heading}</Text>
 			</View>
 
-			{experience.location ? (
-				<Text style={styles.itemMeta}>{experience.location}</Text>
+			{dateRange ? (
+				<Text style={styles.dateText}>{dateRange.toUpperCase()}</Text>
 			) : null}
 
 			{experience.bullets.map((bullet) => {

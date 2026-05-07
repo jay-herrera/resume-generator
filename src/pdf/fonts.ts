@@ -7,6 +7,7 @@ Font.register({
 			src: 'src/assets/fonts/Literal-Regular.otf',
 			fontWeight: 'normal'
 		},
+
 		{
 			src: 'src/assets/fonts/Literal-Bold.otf',
 			fontWeight: 'bold'
@@ -16,4 +17,8 @@ Font.register({
 			fontWeight: 'light'
 		}
 	]
+})
+
+Font.registerHyphenationCallback((word) => {
+	return [word]
 })
