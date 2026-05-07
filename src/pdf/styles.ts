@@ -115,7 +115,7 @@ export const styles = StyleSheet.create({
 		display: 'flex',
 		flexDirection: 'column',
 		gap: 4,
-		marginBottom: 10
+		marginBottom: 6
 	},
 	skillItems: {
 		flex: 1
@@ -123,8 +123,8 @@ export const styles = StyleSheet.create({
 	skillItemsList: {
 		display: 'flex',
 		flexDirection: 'column',
-		gap: 2,
-		marginLeft: 12
+		gap: 1,
+		marginLeft: 10
 	},
 	skillBulletRow: {
 		display: 'flex',
@@ -175,34 +175,34 @@ export const styles = StyleSheet.create({
 
 	sidebarColumn: {
 		width: 135,
-		paddingTop: 123
+		paddingTop: 223
 	},
 
 	sidebarSection: {
-		marginLeft: 5,
-		marginBottom: 18
+		marginLeft: 3,
+		marginBottom: 5
 	},
 
 	sidebarTitle: {
 		color: '#00326E',
-		fontSize: 14,
+		fontSize: 13.5,
 		fontWeight: 'bold',
-		marginBottom: 7
+		marginBottom: 3
 	},
 
 	sidebarText: {
 		color: '#111111',
 		fontSize: 9.5,
-		lineHeight: 1.35,
-		marginBottom: 3
+		lineHeight: 1.3,
+		marginBottom: 2
 	},
 
 	sidebarTextBold: {
 		color: '#111111',
 		fontSize: 9.5,
 		fontWeight: 'bold',
-		lineHeight: 1.35,
-		marginBottom: 3
+		lineHeight: 1.3,
+		marginBottom: 2
 	},
 
 	sidebarLink: {

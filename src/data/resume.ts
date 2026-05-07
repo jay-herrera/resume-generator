@@ -53,6 +53,10 @@ export const resumeData: ResumeData = {
 		{
 			label: 'GitHub',
 			url: 'https://github.com/jay-herrera'
+		},
+		{
+			label: 'LinkedIn',
+			url: 'https://www.linkedin.com/in/jay-herrera'
 		}
 	],
 	location: 'Denver, CO',
