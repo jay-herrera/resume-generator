@@ -17,7 +17,7 @@ export const resumeData: ResumeData = {
 			start: 'July 2017'
 		}
 	],
-	email: 'jay.herrera.personal@gmail.com',
+	email: 'che.bird.herrera@gmail.com',
 	experience: [
 		{
 			bullets: [
@@ -49,7 +49,7 @@ export const resumeData: ResumeData = {
 			url: 'https://github.com/jay-herrera'
 		}
 	],
-	location: 'Denver, United States',
+	location: 'Denver, CO',
 	name: 'Jay Herrera',
 	projects: [
 		{

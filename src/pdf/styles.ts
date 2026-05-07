@@ -98,7 +98,7 @@ export const styles = StyleSheet.create({
 		width: 258
 	},
 	projectItem: {
-		marginBottom: 16
+		marginBottom: 8
 	},
 	section: {
 		marginBottom: 6
@@ -150,16 +150,17 @@ export const styles = StyleSheet.create({
 
 	sidebarColumn: {
 		width: 135,
-		paddingTop: 200
+		paddingTop: 334
 	},
 
 	sidebarSection: {
+		marginLeft: 5,
 		marginBottom: 18
 	},
 
 	sidebarTitle: {
 		color: '#00326E',
-		fontSize: 11,
+		fontSize: 14,
 		fontWeight: 'bold',
 		marginBottom: 7
 	},
@@ -171,11 +172,19 @@ export const styles = StyleSheet.create({
 		marginBottom: 3
 	},
 
+	sidebarTextBold: {
+		color: '#111111',
+		fontSize: 9.5,
+		fontWeight: 'bold',
+		lineHeight: 1.35,
+		marginBottom: 3
+	},
+
 	sidebarLink: {
 		color: '#6F87DB',
 		fontSize: 9.5,
 		lineHeight: 1.35,
 		marginBottom: 3,
-		textDecoration: 'none'
+		textDecoration: 'underline'
 	}
 })

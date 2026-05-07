@@ -14,7 +14,10 @@ export const Sidebar = ({resume}: SidebarProps) => {
 			<View style={styles.sidebarSection}>
 				<Text style={styles.sidebarTitle}>Details</Text>
 				<Text style={styles.sidebarText}>{resume.location}</Text>
-				<Text style={styles.sidebarText}>{resume.email}</Text>
+				<Text style={styles.sidebarText}>720-202-0255</Text>
+				<Link src={`mailto:${resume.email}`} style={styles.sidebarLink}>
+					{resume.email}
+				</Link>
 			</View>
 
 			<View style={styles.sidebarSection}>
@@ -47,7 +50,7 @@ export const Sidebar = ({resume}: SidebarProps) => {
 
 			<View style={styles.sidebarSection}>
 				<Text style={styles.sidebarTitle}>References</Text>
-				<Text style={styles.sidebarText}>
+				<Text style={styles.sidebarTextBold}>
 					References available upon request
 				</Text>
 			</View>
