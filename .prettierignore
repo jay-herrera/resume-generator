@@ -1,0 +1,11 @@
+# Copyright 2023 Glowstik Inc. All rights reserved.
+
+.vscode
+.vscrof
+.github
+.cache
+package-lock.json
+bun.lock
+build
+dist
+node_modules

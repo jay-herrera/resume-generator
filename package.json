@@ -1,0 +1,30 @@
+{
+	"name": "resume-generator",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "bun run src/scripts/renderResume.tsx",
+		"check": "tsc --noEmit",
+		"lint": "eslint . && prettier --write .",
+		"diff": "bun run src/scripts/diffResume.ts",
+		"compare": "bun start && bun diff"
+	},
+	"dependencies": {
+		"@react-pdf/renderer": "latest",
+		"react": "latest"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"@types/bun": "latest",
+		"@types/react": "^19.2.14",
+		"eslint": "^10.3.0",
+		"eslint-import-resolver-typescript": "^4.4.4",
+		"eslint-plugin-import-x": "^4.16.2",
+		"eslint-plugin-sort-exports": "^0.9.1",
+		"eslint-plugin-sort-keys-fix": "^1.1.2",
+		"globals": "^17.6.0",
+		"prettier": "latest",
+		"typescript": "latest",
+		"typescript-eslint": "^8.59.2"
+	}
+}
