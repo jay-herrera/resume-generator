@@ -4,7 +4,6 @@ import {Document, Image, Page, Text, View} from '@react-pdf/renderer'
 import {ExperienceItem} from '@/pdf/components/ExperienceItem'
 import {Header} from '@/pdf/components/Header'
 import {Section} from '@/pdf/components/Section'
-import {SkillList} from '@/pdf/components/SkillList'
 import {styles} from '@/pdf/styles'
 import {Sidebar} from '@/pdf/components/Sidebar'
 
