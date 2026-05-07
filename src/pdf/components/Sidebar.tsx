@@ -1,5 +1,6 @@
 import {Link, Text, View} from '@react-pdf/renderer'
 
+import {SkillList} from '@/pdf/components/SkillList'
 import {styles} from '@/pdf/styles'
 
 import type {ResumeData} from '@/types/resume'
@@ -34,18 +35,7 @@ export const Sidebar = ({resume}: SidebarProps) => {
 
 			<View style={styles.sidebarSection}>
 				<Text style={styles.sidebarTitle}>Skills</Text>
-
-				{resume.skills
-					.flatMap((skillGroup) => {
-						return skillGroup.items
-					})
-					.map((skill) => {
-						return (
-							<Text key={skill} style={styles.sidebarText}>
-								{skill}
-							</Text>
-						)
-					})}
+				<SkillList skills={resume.skills} />
 			</View>
 
 			<View style={styles.sidebarSection}>

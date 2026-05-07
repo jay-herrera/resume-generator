@@ -15,7 +15,16 @@ export const SkillList = ({skills}: SkillListProps) => {
 				return (
 					<View key={skillGroup.label} style={styles.skillGroup}>
 						<Text style={styles.skillLabel}>{skillGroup.label}</Text>
-						<Text style={styles.skillItems}>{skillGroup.items.join(', ')}</Text>
+						<View style={styles.skillItemsList}>
+							{skillGroup.items.map((item) => {
+								return (
+									<View key={item} style={styles.skillBulletRow}>
+										<Text style={styles.skillBulletSymbol}>•</Text>
+										<Text style={styles.skillItem}>{item}</Text>
+									</View>
+								)
+							})}
+						</View>
 					</View>
 				)
 			})}

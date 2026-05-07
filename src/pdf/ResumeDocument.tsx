@@ -40,7 +40,18 @@ export const ResumeDocument = ({resume}: ResumeDocumentProps) => {
 							<Header resume={resume} />
 
 							<View style={styles.summarySection}>
-								<Text style={styles.summary}>{resume.summary}</Text>
+								{resume.summary
+									.split('\n')
+									.filter((paragraph) => {
+										return paragraph.trim().length > 0
+									})
+									.map((paragraph) => {
+										return (
+											<Text key={paragraph} style={styles.summaryParagraph}>
+												{paragraph}
+											</Text>
+										)
+									})}
 							</View>
 
 							<Section title='Employment History'>

@@ -29,7 +29,7 @@ export const resumeData: ResumeData = {
 				'Wrote internal software, such as custom VSCode extensions'
 			],
 			company: 'Glowstik',
-			end: 'Present',
+			end: 'April 2026',
 			location: 'Denver',
 			role: 'Head of Engineering',
 			start: 'October 2020'
@@ -62,17 +62,19 @@ export const resumeData: ResumeData = {
 	],
 	skills: [
 		{
-			items: [
-				'Javascript (Typescript)',
-				'React (NextJS)',
-				'NoSQL',
-				'AWS Architecture',
-				'Elasticsearch'
-			],
-			label: 'Skills'
+			items: ['React', 'Next.js', 'TypeScript', 'Pixi.js'],
+			label: 'Frontend'
+		},
+		{
+			items: ['AWS', 'DynamoDB', 'AppSync', 'Lambda', 'CDK'],
+			label: 'Backend / Cloud'
+		},
+		{
+			items: ['CI/CD', 'Performance profiling', 'Custom tooling'],
+			label: 'Systems'
 		}
 	],
 	summary:
-		'With over four years of experience managing the engineering department of a software company, I have a proven track record of architecting innovative solutions and leading high-performing teams. I excel in creating and maintaining complex (yet, organized) environments, leveraging my strong technical skills and strategic mindset.\nMy ability to think creatively allows me to identify and solve even the most challenging problems, driving continuous improvement and efficiency gains. As a dedicated leader, I foster collaboration and empower my team to achieve their full potential, while employing humility in respecting the chain of command. I am passionate about delivering tangible results and am eager to leverage my expertise to drive success in a new role.\n',
+		'With over four years of experience managing the engineering department of a software company, I have a proven track record of architecting innovative solutions and leading high-performing teams. I excel in creating and maintaining complex (yet, organized) environments, leveraging my strong technical skills and strategic mindset.\nMy ability to think creatively allows me to identify and solve even the most challenging problems, driving continuous improvement and efficiency gains. As a dedicated leader, I foster collaboration and empower my team to achieve their full potential, while employing humility in respecting the chain of command. I am passionate about delivering tangible results and am eager to leverage my expertise to drive success in a new role.',
 	title: 'Software Engineer'
 }

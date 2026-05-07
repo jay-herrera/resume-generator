@@ -113,24 +113,49 @@ export const styles = StyleSheet.create({
 	},
 	skillGroup: {
 		display: 'flex',
-		flexDirection: 'row',
-		marginBottom: 3
+		flexDirection: 'column',
+		gap: 4,
+		marginBottom: 10
 	},
 	skillItems: {
-		flex: 1,
-		fontSize: 9.5
+		flex: 1
+	},
+	skillItemsList: {
+		display: 'flex',
+		flexDirection: 'column',
+		gap: 2,
+		marginLeft: 12
+	},
+	skillBulletRow: {
+		display: 'flex',
+		flexDirection: 'row',
+		gap: 4
+	},
+	skillBulletSymbol: {
+		fontSize: 9,
+		lineHeight: 1.2
+	},
+	skillItem: {
+		fontSize: 9,
+		lineHeight: 1.3
 	},
 	skillLabel: {
 		fontSize: 9.5,
-		fontWeight: 'bold',
-		width: 82
+		fontWeight: 'bold'
 	},
 	summarySection: {
-		marginBottom: 17
+		marginBottom: 0
 	},
 	summary: {
 		fontSize: 11.5,
 		lineHeight: 1.4
+	},
+
+	summaryParagraph: {
+		fontSize: 11.5,
+		lineHeight: 1.4,
+		marginBottom: 12,
+		textIndent: 14
 	},
 	title: {
 		fontSize: 25,
@@ -150,7 +175,7 @@ export const styles = StyleSheet.create({
 
 	sidebarColumn: {
 		width: 135,
-		paddingTop: 334
+		paddingTop: 223
 	},
 
 	sidebarSection: {
