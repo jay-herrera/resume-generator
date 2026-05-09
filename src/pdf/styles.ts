@@ -144,7 +144,8 @@ export const styles = StyleSheet.create({
 		fontWeight: 'bold'
 	},
 	summarySection: {
-		marginBottom: 2
+		marginBottom: 2,
+		maxWidth: 350
 	},
 	summary: {
 		fontSize: 11.5,
@@ -152,7 +153,7 @@ export const styles = StyleSheet.create({
 	},
 
 	summaryParagraph: {
-		fontSize: 11.5,
+		fontSize: 11,
 		lineHeight: 1.4,
 		marginBottom: 6,
 		textIndent: 14
@@ -176,7 +177,7 @@ export const styles = StyleSheet.create({
 
 	sidebarColumn: {
 		width: 135,
-		paddingTop: 220
+		paddingTop: 225
 	},
 
 	sidebarSection: {

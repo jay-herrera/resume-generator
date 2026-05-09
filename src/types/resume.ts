@@ -39,7 +39,6 @@ export type ResumeData = {
 	links: ResumeLink[]
 	location: string
 	name: string
-	projects: ProjectItem[]
 	skills: SkillGroup[]
 	summary: string
 	title: string
