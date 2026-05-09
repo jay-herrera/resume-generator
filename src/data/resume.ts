@@ -60,7 +60,7 @@ export const resumeData: ResumeData = {
 		}
 	],
 	location: 'Denver, CO',
-	name: 'Jay Herrera',
+	name: 'Che Herrera',
 	projects: [
 		{
 			bullets: [
