@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
 		fontFamily: 'Literal',
 		fontSize: 10,
 		lineHeight: 1.35,
-		paddingBottom: 36,
+		paddingBottom: 0,
 		paddingHorizontal: 42,
 		paddingTop: 23
 	},
@@ -66,7 +66,7 @@ export const styles = StyleSheet.create({
 		textDecoration: 'none'
 	},
 	name: {
-		fontSize: 44,
+		fontSize: 38,
 		fontWeight: 'bold',
 		letterSpacing: 0.4,
 		lineHeight: 1
@@ -105,11 +105,11 @@ export const styles = StyleSheet.create({
 	},
 	sectionTitle: {
 		color: '#00326E',
-		fontSize: 14.5,
+		fontSize: 14,
 		fontWeight: 'bold',
 		letterSpacing: 0.5,
-		marginBottom: 4,
-		paddingBottom: 3
+		marginBottom: 2,
+		paddingBottom: 2
 	},
 	skillGroup: {
 		display: 'flex',
@@ -158,15 +158,16 @@ export const styles = StyleSheet.create({
 		textIndent: 14
 	},
 	title: {
-		fontSize: 25,
+		fontSize: 20,
 		fontWeight: 'bold',
 		lineHeight: 1.2,
-		marginTop: 12
+		marginTop: 4
 	},
 	contentLayout: {
 		display: 'flex',
 		flexDirection: 'row',
-		gap: 28
+		rowGap: 0,
+		columnGap: 10
 	},
 
 	mainColumn: {
@@ -175,11 +176,11 @@ export const styles = StyleSheet.create({
 
 	sidebarColumn: {
 		width: 135,
-		paddingTop: 223
+		paddingTop: 220
 	},
 
 	sidebarSection: {
-		marginLeft: 3,
+		marginLeft: 13,
 		marginBottom: 5
 	},
 

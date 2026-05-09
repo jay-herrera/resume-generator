@@ -22,13 +22,15 @@ export const resumeData: ResumeData = {
 		{
 			bullets: [
 				'Led engineering for an early-stage social platform, owning frontend, backend, cloud infrastructure, internal tooling, and deployment workflows.',
-				'Architected and maintained a large React / Next.js codebase with complex product surfaces including chat, maps, notifications, onboarding, settings, and social feeds.',
-				'Built and maintained serverless AWS infrastructure using DynamoDB, AppSync, Lambda, S3, CloudFront, CloudFormation, CDK, and Amplify.',
+				'Architected and maintained a large React / Next.js / TypeScript codebase with complex product surfaces including chat, maps, notifications, onboarding, settings, and social feeds.',
+				'Built and maintained backend services and APIs using Node.js, Express, and AWS serverless technologies.',
+				'Implemented real-time application features using AppSync subscriptions and WebSocket-based data synchronization patterns.',
+				'Built and maintained cloud infrastructure using DynamoDB, AppSync, Lambda, S3, CloudFront, CloudFormation, CDK, and Amplify.',
 				'Configured engineering systems including linting, CI/CD workflows, build processes, deployment pipelines, and internal developer tooling.',
 				'Implemented proprietary geospatial and map-overlay technology using WebGL, Pixi.js, custom shaders, and performance-sensitive animation systems.',
 				'Improved rendering and animation performance through profiling, architectural changes, and cross-device debugging on iOS Safari, Android Chrome, macOS Chrome, and Safari.',
 				'Developed internal tools including custom VS Code extensions and project navigation utilities to support development in a large codebase.',
-				'Collaborated directly with product leadership on technical tradeoffs, feature feasibility, architecture decisions, and production debugging.'
+				'Collaborated directly with product leadership on technical tradeoffs, feature feasibility, architecture decisions, and production debugging while mentoring a junior engineer through code reviews and technical guidance.'
 			],
 			company: 'Glowstik',
 			end: 'April 2026',
@@ -61,15 +63,6 @@ export const resumeData: ResumeData = {
 	],
 	location: 'Denver, CO',
 	name: 'Che Herrera',
-	projects: [
-		{
-			bullets: [
-				'Built a custom PDF resume generator using Bun, TypeScript, React, and React PDF.',
-				'Separated resume data from rendering components to support reusable layouts, faster iteration, and consistent PDF generation.'
-			],
-			name: 'Resume Generator'
-		}
-	],
 	skills: [
 		{
 			items: [
@@ -78,12 +71,14 @@ export const resumeData: ResumeData = {
 				'TypeScript',
 				'JavaScript',
 				'Pixi.js',
-				'React PDF'
+				'WebGL'
 			],
 			label: 'Frontend'
 		},
 		{
 			items: [
+				'Node.js',
+				'Express',
 				'AWS',
 				'DynamoDB',
 				'AppSync',
@@ -91,7 +86,8 @@ export const resumeData: ResumeData = {
 				'S3',
 				'CloudFront',
 				'CDK',
-				'Amplify'
+				'Amplify',
+				'WebSockets'
 			],
 			label: 'Backend / Cloud'
 		},
@@ -100,14 +96,14 @@ export const resumeData: ResumeData = {
 				'CI/CD',
 				'Performance profiling',
 				'Custom tooling',
-				'WebGL',
 				'Shaders',
-				'PWA development'
+				'PWA development',
+				'Production debugging'
 			],
 			label: 'Systems'
 		}
 	],
 	summary:
-		'Full-stack software engineer with 5+ years of experience leading engineering for an early-stage social platform. Strong background in React, Next.js, TypeScript, AWS serverless infrastructure, performance-sensitive UI, geospatial systems, internal tooling, and production debugging. Experienced working across the full product stack in fast-moving startup environments, from architecture and implementation to deployment, testing, and cross-device troubleshooting.',
-	title: 'Software Engineer'
+		'Software engineer with 5+ years of experience building production web applications, cloud infrastructure, and performance-sensitive visualization systems. Strong background in React, TypeScript, WebGL, geospatial rendering, AWS serverless architecture, real-time systems, and production debugging. Experienced owning technical systems end-to-end in fast-moving startup environments, from architecture and implementation to deployment, testing, and cross-device troubleshooting.',
+	title: 'Senior Software Engineer'
 }
